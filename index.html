@@ -45,7 +45,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer graphics, deep learning, and optics. My recent research is about Hyperspectral 3D imaging, which reconstructs depth and spectral information from a 2D captured image.
+                  I'm interested in computer graphics, deep learning, and optics. My recent research is about Hyperspectral 3D imaging, which reconstructs high quality depth and spectral information using a diffraction grating film.
                 </p>
               </td>
             </tr>
@@ -54,7 +54,7 @@
 
 
 
-    <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+    <tr onmouseout="dsl_stop()" onmouseover="dsl_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
@@ -64,40 +64,34 @@
           <img src='images/smerf.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function smerf_start() {
+          function dsl_start() {
             document.getElementById('smerf_image').style.opacity = "1";
           }
 
-          function smerf_stop() {
+          function dsl_stop() {
             document.getElementById('smerf_image').style.opacity = "0";
           }
-          smerf_stop()
+          dsl_stop()
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+        <a href="https://shshin1210.github.io/DSL/">
+          <span class="papertitle">Dispersed Structured Light for Hyperspectral 3D Imaging</span>
         </a>
         <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
+		<a href="https://shshin1210.github.io/suhyun_website/">Suhyun Shin</a>,
+		<a href="https://phogzone.com/">Seokjun Choi</a>,
+		<a href="https://www.cs.princeton.edu/~fheide/">Felix Heide</a>,
+		<a href="https://www.shbaek.com/">Seung-Hwan Baek</a>,
         <br>
-        <em>arXiv</em>, 2023
+        <em>CVPR</em>, 2024
         <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
+        <a href="https://shshin1210.github.io/DSL/">project page</a>
         /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-        /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
+        <a href="https://arxiv.org/pdf/2311.18287.pdf">arXiv</a>
         <p></p>
         <p>
-        Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
+        High quality hyperspectral 3D imaging using dispersed structured light.
         </p>
       </td>
     </tr>
