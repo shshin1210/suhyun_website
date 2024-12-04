@@ -100,6 +100,52 @@
         </p>
       </td>
     </tr>
+
+
+    <tr onmouseout="dsl_stop()" onmouseover="dsl_start()">
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='teaser2'><video  width=100% muted autoplay loop>
+          <source src="images/result.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='images/teaser.png' width=100%>
+        </div>
+        <script type="text/javascript">
+          function dsl_start() {
+            document.getElementById('teaser2').style.opacity = "1";
+          }
+
+          function dsl_stop() {
+            document.getElementById('teaser2').style.opacity = "0";
+          }
+          dsl_stop()
+        </script>
+      </td>
+
+      <td style="padding:20px;width:75%;vertical-align:text-top">
+        <a href="https://shshin1210.github.io/DDSL/">
+          <span class="papertitle">Dense Dispersed Structured Light for Hyperspectral 3D Imaging of Dynamic Scenes</span>
+        </a>
+        <br>
+          <a href="https://shshin1210.github.io/suhyun_website/">Suhyun Shin</a>,
+          <a href="https://sites.google.com/view/seungwoo-yoon/%ED%99%88/">Seungwoo Yoon</a>,
+          <a href="https://elerac.github.io/">Ryota Maeda</a>,
+          <a href="https://www.shbaek.com/">Seung-Hwan Baek</a>
+        <br>
+        <!-- <em>CVPR</em>, 2024 -->
+        <br>
+        <a href="https://shshin1210.github.io/DDSL/">project page</a>
+        /
+        <a href="https://arxiv.org/pdf/2412.01140">arXiv</a>
+        /
+        <a href="https://github.com/shshin1210/DDSL">code</a>
+        <p></p>
+        <p>
+        Fast and high accurate hyperspectral 3D imaging for dynamic scenes using dense dispersed structured light.
+        </p>
+      </td>
+    </tr>
             
 
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
